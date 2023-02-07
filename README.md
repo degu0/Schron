@@ -72,6 +72,19 @@ private $banco = "exemplo";
 Assim tera o acesso do banco de dados para a ferramenta
 
 ## Como rodar os testes
+
+Quando efetuar os comando com o composer, criara um servidor web com php. No seu terminal ainda, efetue o comando:
+
+```
+php -S localhost:8080 -t public
+```
+
+Agora no explorador de escolha coloque barra de pesquisa o localização do servidor web
+
+```
+localhost:8080
+```
+
 ## Autores
 
 <!--Fotos dos Autores (Thiago, Iris e eu(Deyvid)) e 'links' para seus linkeId-->
