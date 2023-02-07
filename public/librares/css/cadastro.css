@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@100&family=Roboto+Mono:wght@200&family=Roboto:wght@300&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+.sair {
+    width: 40px;
+}
+
+.area_login {
+    display: flex;
+    justify-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+.login {
+    display: flex;
+    align-items: center;
+    background-color: #F2F5F9;
+    border-radius: 10px;
+    min-height: 180px;
+    max-height: 580px;
+    padding: 43px;
+}
+
+.login form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: normal;
+    color: #36383C;
+    border: none;
+    height: 7px;
+    outline: none;
+    width: 300px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.login img {
+    width: 72px;
+    height: auto;
+}
+
+.login label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    color: #36383C;
+}
+
+.login h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #36383C;
+    font-size: 14px;
+}
+
+form input[type="text"] {
+    border-bottom: 2px solid #36383C;
+    background: transparent;
+    height: 30px;
+}
+
+form input[type="number"] {
+    border-bottom: 2px solid #36383C;
+    background: transparent;
+    height: 30px;
+}
+
+form input[type="password"] {
+    border-bottom: 2px solid #36383C;
+    background: transparent;
+    height: 30px;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #413DBB;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 33px;
+    margin-top: 20px;
+    margin-left: 189px;
+    margin-right: 100px;
+}
+
+.button img {
+    width: 32px;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    color: #36383C;
+    text-decoration: none;
+}
+
+
+.color {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.color::-webkit-color-swatch {
+    border-radius: 5px;
+    border: none;
+}
+
+.color::-moz-color-swatch {
+    border-radius: 5px;
+    border: none;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

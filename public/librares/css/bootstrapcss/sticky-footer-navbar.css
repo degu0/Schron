@@ -1,0 +1,18 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/* main > .container {
+  padding: 60px 15px 0;
+} */
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  width: auto;
+  max-width: 680px;
+  padding: 60px 15px;
+}
+

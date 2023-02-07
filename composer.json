@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Schron\\": "src/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0",
+        "psr/http-server-middleware": "^1.0",
+        "nyholm/psr7": "^1.5",
+        "nyholm/psr7-server": "^1.0"
+    }
+}

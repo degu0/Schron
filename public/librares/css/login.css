@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@100&family=Roboto+Mono:wght@200&family=Roboto:wght@300&display=swap');
+body { 
+    overflow: hidden;
+}
+
+.sair {
+    width: 55px;
+}
+
+.area_login {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F5F9;
+    border-radius: 10px;
+    width: 380px;
+    height: 500px;
+    padding: 35px;
+}
+
+.login form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.login input {
+    font-family: 'Roboto', sans-serif;
+    font-size: normal;
+    padding-left: 10px;
+    color: #36383C;
+    border: none;
+    height: 7px;
+    outline: none;
+
+}
+
+.login img {
+    width: 72px;
+    height: auto;
+}
+
+.login p{
+    font-family: 'Roboto', sans-serif;
+    color: #36383C;
+}
+
+.login h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #36383C;
+    font-size: 14px;
+}
+
+form input[type ="text"] {
+    border-bottom:2px solid #36383C;    
+    background:transparent;
+    height:30px;
+}
+form input[type ="password"] {
+    border-bottom:2px solid #36383C;    
+    background:transparent;
+    height:30px;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #413DBB;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 33px;
+    margin-top: 20px;
+    margin-left: 145px;
+    
+}
+
+.button img {
+    width: 32px;
+}
+
+/* .usr {    
+    background-image: url("./images/Vector_8.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 1.3em;
+  } */
+
+
+.Schorn {
+    color: #36383C;
+    font-family: 'Raleway';
+    font-weight: 2;
+    font-size: 26px;
+}
+
+
+a {
+    font-family: 'Roboto Mono', monospace;
+    color: #36383C;
+    text-decoration: none;
+}

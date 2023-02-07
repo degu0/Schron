@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background: linear-gradient(5deg, #356FBA 0%, #413DBB 71.52%);
+    width: 100%;
+    padding: 7px;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo img {
+    width: 44px;
+}
+
+.logo a {
+    color: #F2F5F9;
+    text-decoration: none;
+    padding-right: 8px;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.login {
+    border: 2px solid #F2F5F9;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.login a {
+    color: #F2F5F9;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login:hover {
+    color: white;
+}
+
+.cadastro {
+    border: 2px solid #F2F5F9;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.cadastro a {
+    color: #F2F5F9;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cadastro:hover {
+    background-color: #413DBB;
+    color: #F2F5F9;
+}
+
+
+
+/* apresentacao */
+.d {
+    margin: 0 auto;
+    width: 85%;
+    /* Valor da Largura */
+}
+
+.tabela {
+    margin: 100px;
+}
+
+.h3 {
+    font-size: 24pt;
+    font-family: 'Raleway', sans-serif;
+    color: #36383C;
+    font-weight: 100;
+}
+
+.cards {
+    height: 50vh;
+    width: 18vw;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.j {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p {
+    font-family: 'Raleway', sans-serif;
+    color: #36383C;
+    font-weight: 100;
+}
