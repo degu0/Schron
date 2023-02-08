@@ -12,9 +12,9 @@
 
 > 🛑 EM FINALIZAÇÃO 🛑
 
-Projeto desenvolvido para o TCC na Escola Tecnica Estadual Ministro Fernando Lyra. Schron eh uma ferramenta para auxiliar na formação de grades de horários para as aulas de instituições de ensino. 
+Projeto desenvolvido para o TCC na Escola Tecnica Estadual Ministro Fernando Lyra. Schron é uma ferramenta para auxiliar na formação de grades de horários para as aulas de instituições de ensino. 
 
-O sistema permitiria na facilitação e agilização de grades horarias de escolas, de qualquer ensino. Possibilitando gestores das escolas concluirem de forma rapida e eficiente os horários.
+O sistema permitiria na facilitação e agilização de grades horarias de escolas, de qualquer ensino. Possibilitando gestores das escolas concluírem de forma rápida e eficiente os horários.
 
 ## 🔨 Funcionalidades do projeto
 
@@ -44,7 +44,7 @@ No terminal do git use o comando clone para baixar o projeto:
 git clone https://github.com/degu0/Schron.git
 ```
 
-Quando estiver com o arquivo baixado, abrira com seu editor de codigo e va para o terminal. E executara: 
+Quando estiver com o arquivo baixado, abrira com seu editor de código e após para o terminal. E executará: 
 
 ```
 composer install
@@ -59,7 +59,7 @@ composer update
 ## 📚 Inciando com o Banco de Dados
 
 Para rodar o banco de dados do projeto, tera que coloca-lo no seu MySQL Worbench. Logo depois, ira para o arquivo Schron/src/model/BD/conexao.php.
-E la mudara para a suas informacoes: 
+E lá mudará para a suas informações: 
 * Hostname;
 * Username;
 * Senha;
@@ -77,13 +77,13 @@ Assim tera o acesso do banco de dados para a ferramenta
 
 ## 💻 Como rodar os testes
 
-Quando efetuar os comando com o composer, criara um servidor web com php. No seu terminal ainda, efetue o comando:
+Quando efetuar os comandos com o composer, criará um servidor web com php. No seu terminal ainda, efetue o comando:
 
 ```
 php -S localhost:8080 -t public
 ```
 
-Agora no explorador de escolha coloque barra de pesquisa o localização do servidor web
+Agora no explorador de escolha coloque barra de pesquisa o localização do servidor web:
 
 ```
 localhost:8080
