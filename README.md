@@ -27,10 +27,9 @@ O sistema permitiria na facilitação e agilização de grades horarias de escol
  * `PHP`;
  * `HTML, CSS e JavaScript`;
  * `MVC`;
- * `Composer`
- * `Matrizes`;
+ * `Composer`;
 
-## Como rodar a aplicação
+## ▶️ Como rodar a aplicação
 
 Primeiramente, antes de baixar o arquivo. Baixe o (composer) no seu computador.
 
@@ -52,7 +51,7 @@ E logo depois:
 composer update
 ```
 
-## Inciando com o Banco de Dados
+## 📚 Inciando com o Banco de Dados
 
 Para rodar o banco de dados do projeto, tera que coloca-lo no seu MySQL Worbench. Logo depois, ira para o arquivo Schron/src/model/BD/conexao.php.
 E la mudara para a suas informacoes: 
@@ -71,7 +70,7 @@ private $banco = "exemplo";
 
 Assim tera o acesso do banco de dados para a ferramenta
 
-## Como rodar os testes
+## 💻 Como rodar os testes
 
 Quando efetuar os comando com o composer, criara um servidor web com php. No seu terminal ainda, efetue o comando:
 
@@ -85,7 +84,7 @@ Agora no explorador de escolha coloque barra de pesquisa o localização do serv
 localhost:8080
 ```
 
-## Autores
+## 🧑‍💻 Autores
 
 <!--Fotos dos Autores (Thiago, Iris e eu(Deyvid)) e 'links' para seus linkeId-->
 
