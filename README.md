@@ -1,6 +1,11 @@
 <h1 align = "center">Schron</h1>
 <p align = "center">
 <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
   
 ![Comece_agora2 (6)](https://user-images.githubusercontent.com/87346972/217118662-a5600b20-9ece-4b3a-9c21-a5603c5c294b.png)
@@ -31,7 +36,7 @@ O sistema permitiria na facilitação e agilização de grades horarias de escol
 
 ## ▶️ Como rodar a aplicação
 
-Primeiramente, antes de baixar o arquivo. Baixe o (composer) no seu computador.
+Primeiramente, antes de baixar o arquivo. Baixe o [composer](https://www.hostinger.com.br/tutoriais/como-instalar-e-usar-o-composer) no seu computador.
 
 No terminal do git use o comando clone para baixar o projeto: 
 
@@ -86,7 +91,10 @@ localhost:8080
 
 ## 🧑‍💻 Autores
 
-<!--Fotos dos Autores (Thiago, Iris e eu(Deyvid)) e 'links' para seus linkeId-->
+| Lider  | Desginer | Programador |
+| ------------- | ------------- | ------------- |
+| Fotos  | Fotos  | Fotos  |
+| Link (LInkedIn)  | Link (LInkedIn)  | Link (LInkedIn)  |
 
 ## Licença
 
