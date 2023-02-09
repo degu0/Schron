@@ -91,10 +91,11 @@ localhost:8080
 
 ## 🧑‍💻 Autores
 
+
 | Lider  | Desginer | Programador |
 | ------------- | ------------- | ------------- |
-| Fotos  | Fotos  | Fotos  |
-| Link (LInkedIn)  | Link (LInkedIn)  | Link (LInkedIn)  |
+| <img src='https://user-images.githubusercontent.com/87346972/217927503-2ed8cc7f-accb-4e85-9f64-9feb28dd1d3d.jpeg' width="150" height="150" >  | <img src='https://user-images.githubusercontent.com/87346972/217927619-6059ba3c-d493-456e-a3a6-95760116d289.jpg' width="150" height="150">  | <img src='https://user-images.githubusercontent.com/87346972/217927708-f2a659a3-d43e-417a-a549-c30942a122d6.jpeg' width="150" height="150">  |
+| [Iris Gabriella](https://www.linkedin.com/in/iris-gabriella-alencar-de-lima-a72422213/)  | Thiago Henrique  | [Deyvid Gustavo](https://www.linkedin.com/in/deyvid-gustavo-0642a2235/)  |
 
 ## Licença
 
