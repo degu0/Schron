@@ -19,13 +19,19 @@ O sistema permitiria na facilitação e agilização de grades horarias de escol
 ## 🔨 Funcionalidades do projeto
 
 * `Funcionalidade 1` : Criar uma seleção e distribuição correta de horários de ensino para cada professor;
-  <!--Giphy da tela de entrada-->
- * `Funcionalidade 2` : Sistema de login;
-  <!--Giphy do sistema de login funiconando e de cadastro-->
+  <div align = "center" width="500" height="300">
+  <img src="https://user-images.githubusercontent.com/87346972/217944603-503158f2-45a7-45c6-9279-21bcea9b5017.gif" >
+  </div>
+##
+* `Funcionalidade 2` : Sistema de login;
+  <div align = "center" width="500" height="300">
+  <img src="https://user-images.githubusercontent.com/87346972/217945986-70f8e9e0-eb8c-42f1-8bb5-d5ad50ae9ccb.gif" >
+  </div>
+##
 * `Funcionalidade 3` : Evitar a duplicidade de mesmas aulas para diferentes turmas com o mesmo professor, desse modo a obstar aulas perdidas/vagas;
-  <!--Giphy do sistema de cadastros-->
-* `Funcionalidade 4` : Facilitar o desenvolvimento de novas grades, seja para dias distintos ou para melhor aproveitamento dos educadores.
-  <!--Giphy do sistema de horário funcionando-->
+  <div align = "center" width="500" height="30">
+  <img src="https://user-images.githubusercontent.com/87346972/217946760-db13e78e-8d0b-40fb-a5d1-5c9146fb4a62.gif" >
+  </div>
   
  ## ✔️ Técnicas e tecnologias utilizadas
  
