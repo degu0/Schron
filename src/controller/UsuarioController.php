@@ -4,13 +4,11 @@ namespace Schron\controller;
 
 use Schron\controller\inheritance\Controller;
 use Schron\model\BD\UsuarioBD;
-use Schron\model\BD\InstitutoBD;
 use Schron\model\Usuario;
 use Nyholm\Psr7\Response;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Schron\model\Instituto;
 
 class UsuarioController extends Controller implements RequestHandlerInterface
 {
@@ -56,6 +54,7 @@ class UsuarioController extends Controller implements RequestHandlerInterface
             $usuarioBD->adicionar($usuario);
             $loginUsuario = $request->getParsedBody()["login"];
             $_SESSION["usuario"] = $loginUsuario;
+            $_SESSION["instituto"] = $instituto;
 
             $response = new Response(302, ["Location" => "/home"], null);
 
