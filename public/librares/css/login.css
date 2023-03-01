@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@100&family=Roboto+Mono:wght@200&family=Roboto:wght@300&display=swap');
+
 body { 
     overflow: hidden;
+    background: white url('/images/wallpaperLogin.png') center center no-repeat fixed;
+    background-size: cover;
 }
 
-.sair {
+#sair {
     width: 55px;
 }
 
-.area_login {
+#area_login {
     display: flex;
     justify-items: center;
     align-items: center;
@@ -16,7 +19,7 @@ body {
 }
 
 
-.login {
+#login {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,34 +30,36 @@ body {
     padding: 35px;
 }
 
-.login form {
+#login form {
     display: flex;
     width: 100%;
     flex-direction: column;
 }
 
-.login input {
+#login input {
     font-family: 'Roboto', sans-serif;
-    font-size: normal;
+    font-size: 1.1em;
     padding-left: 10px;
     color: #36383C;
     border: none;
+    border-bottom: 2px solid rgb(200, 200, 200);
     height: 7px;
     outline: none;
+    margin-bottom: 10px;
 
 }
 
-.login img {
+#login img {
     width: 72px;
     height: auto;
 }
 
-.login p{
+#login label{
     font-family: 'Roboto', sans-serif;
     color: #36383C;
 }
 
-.login h1{
+#login h1{
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
@@ -68,14 +73,16 @@ form input[type ="text"] {
     border-bottom:2px solid #36383C;    
     background:transparent;
     height:30px;
+    padding: 20px;
 }
 form input[type ="password"] {
     border-bottom:2px solid #36383C;    
     background:transparent;
     height:30px;
+    padding: 20px;
 }
 
-.button {
+#button {
     width: 80px;
     height: 80px;
     padding: 20px;
@@ -92,20 +99,11 @@ form input[type ="password"] {
     
 }
 
-.button img {
+#button img {
     width: 32px;
 }
 
-/* .usr {    
-    background-image: url("./images/Vector_8.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 1.3em;
-    padding-left: 1.3em;
-  } */
-
-
-.Schorn {
+#Schorn {
     color: #36383C;
     font-family: 'Raleway';
     font-weight: 2;
@@ -113,8 +111,8 @@ form input[type ="password"] {
 }
 
 
-a {
+p, a {
     font-family: 'Roboto Mono', monospace;
-    color: #36383C;
+    color: #2f3134;
     text-decoration: none;
 }

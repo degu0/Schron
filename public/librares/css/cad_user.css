@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
 
 body {
-  background-image: url('/images/wallpaperCadastroUsuario.png');
+  background: white url('/images/wallpaperCadastroUsuario.png') left center no-repeat fixed;
+  background-size: cover;
 }
 
 * {
@@ -30,7 +31,7 @@ main {
   flex-flow: column wrap;
 }
 
-.login {
+section#login {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -49,12 +50,12 @@ main {
   justify-content: center;
 }
 
-.login__logo {
+#login__logo {
   width: 140px;
   margin-bottom: 50px;
 }
 
-.login__title {
+#login__title {
   color: var(--grey);
   font-size: 1.5em;
   margin-bottom: 30px;
@@ -94,8 +95,8 @@ main {
 }
 
 .login__button {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -108,7 +109,7 @@ main {
 }
 
 .login__button img {
-  width: 28px;
+  width: 30px;
 }
 
 .login__button:disabled {
@@ -121,10 +122,19 @@ main {
   fill: var(--whitesmoke);
 }
 
-.wallpaper {
-  width: 100%;
-  background-image: url('./Images/wallpaper.png');
-  background-size: cover;
-  background-position: center;
-  flex: 1;
+
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  main {
+    position: relative;
+    height: 96vh;
+    width: 96vw;
+  }
+
+  section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }

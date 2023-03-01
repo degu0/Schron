@@ -10,27 +10,27 @@
     <title>Schron - Login</title>
 </head>
 
-<body style="background-image: url('/images/wallpaperLogin.png');">
-    <a href="/"><img src="/./images/entrar.png" alt="" class="sair"></a>
-    <section class="area_login">
-        <div class="login">
+<body>
+    <a href="/"><img src="/./images/entrar.png" alt="Voltar para o home" id="sair"></a>
+    <section id="area_login">
+        <article id="login">
             <div>
-                <img src="./images/logo.png">
+                <img src="./images/logo.png" alt="Schron">
             </div>
             <form action="/login/logar" method="POST">
             <?php
             if (isset($loginIncorreto)) {
                 echo "Login não encontrado";
             } ?>
-                <h1 class="Schron">SCHRON</h1>
-                <p>Login:</p>
-                <input type="text" name="login" placeholder="Username" autofocus required>
-                <p>Senha:</p>
-                <input type="password" name="senha" placeholder="Password" required>
-                <button class="button"><img src="/./images/sair.png"></button>
+                <h1 id="Schron">SCHRON</h1>
+                <label for="ilogin">Login: </label>
+                <input type="text" name="login" id="ilogin" placeholder="Username" autofocus required>
+                <label for="isenha">Senha: </label>
+                <input type="password" name="senha"  id="isenha" placeholder="Password" required>
+                <button id="button"><img src="/./images/sair.png"></button>
             </form>
-            <a>Ainda nao tem uma conta?</a><a href="/usuario/cadastro">Criar conta</a>
-        </div>
+            <p>Ainda nao tem uma conta?<a href="/usuario/cadastro">Criar conta</a></p>
+        </article>
     </section>
 </body>
 

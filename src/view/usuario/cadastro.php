@@ -13,16 +13,14 @@
 <bodys>
 
     <main>
-        <section class="login">
+        <section id="login">
             <a href="/"><img src="/./images/sairv.png" alt=""></a>
             <div class="wrapper">
-                
-                <img src="/images/logo.png" class="login__logo">
-
-                <h1 class="login__title">SCHRON</h1>
+                <img src="/images/logo.png" id="login__logo">
+                <h1 id="login__title">SCHRON</h1>
                 <form action="/usuario/add" method="POST">
                     <label class="login__label">
-                        <span>Nome do usuário:</span>
+                        <label for="login">Nome do usuário:</label>
                         <input type="text" name="login" class="input" id="login" required>
                     </label>
                     <label class="login__label">
@@ -40,7 +38,6 @@
                         <input type="password" name="cSenha" class="input" id="cSenha" required>
                     </label>
             </div>
-
             <div class="wrapper">
                 <button class="login__button">
                     <img src="/images/sair.png" alt="">
