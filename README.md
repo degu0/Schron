@@ -103,6 +103,6 @@ localhost:8080
 
 ## Licença
 
-The [MIT License]() (MIT)
+The MIT License (MIT)
 
 Copyright :copyright: 2022 - Schron
