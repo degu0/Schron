@@ -10,7 +10,7 @@
   
 ![Comece_agora2 (6)](https://user-images.githubusercontent.com/87346972/217118662-a5600b20-9ece-4b3a-9c21-a5603c5c294b.png)
 
-Projeto desenvolvido para o TCC na Escola Tecnica Estadual Ministro Fernando Lyra. Schron é uma ferramenta para auxiliar na formação de grades de horários para as aulas de instituições de ensino. 
+Projeto desenvolvido para o TCC na Escola Técnica Estadual Ministro Fernando Lyra. Schron é uma ferramenta para auxiliar na formação de grades de horários para as aulas de instituições de ensino. 
 
 O sistema permitiria na facilitação e agilização de grades horarias de escolas, de qualquer ensino. Possibilitando gestores das escolas concluírem de forma rápida e eficiente os horários.
 
