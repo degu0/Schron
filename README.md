@@ -10,8 +10,6 @@
   
 ![Comece_agora2 (6)](https://user-images.githubusercontent.com/87346972/217118662-a5600b20-9ece-4b3a-9c21-a5603c5c294b.png)
 
-> 🛑 EM FINALIZAÇÃO 🛑
-
 Projeto desenvolvido para o TCC na Escola Tecnica Estadual Ministro Fernando Lyra. Schron é uma ferramenta para auxiliar na formação de grades de horários para as aulas de instituições de ensino. 
 
 O sistema permitiria na facilitação e agilização de grades horarias de escolas, de qualquer ensino. Possibilitando gestores das escolas concluírem de forma rápida e eficiente os horários.
@@ -38,7 +36,7 @@ O sistema permitiria na facilitação e agilização de grades horarias de escol
  * `PHP`;
  * `HTML, CSS e JavaScript`;
  * `MVC`;
- * `Composer`;
+ * `Composer`.
 
 ## ▶️ Como rodar a aplicação
 
@@ -89,7 +87,7 @@ Quando efetuar os comandos com o composer, criará um servidor web com php. No s
 php -S localhost:8080 -t public
 ```
 
-Agora no explorador de escolha coloque barra de pesquisa o localização do servidor web:
+Agora no explorador de escolha coloque barra de pesquisa a localização do servidor web:
 
 ```
 localhost:8080
